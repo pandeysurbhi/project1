@@ -83,3 +83,68 @@ img{
     align-items: center;
 
 }
+.banner1{
+    width:97%;
+    height:100%;
+    position: relative;
+    margin-left: 0%;
+}
+.main1{
+  
+    margin:10px 0px;
+}
+.main2{
+    height:80px;
+    margin:auto;
+    border-radius: 5px;
+    border:5px solid rgb(237, 147, 62)
+  
+}
+.crazy_deals{
+font-size: 40px;
+font-weight: 900px;
+margin-left: 42%;
+margin-top: auto;
+color: #828897;
+-webkit-text-stroke: width color;
+text-shadow: -1px 1px 0 #000,
+1px 1px 0 #000,
+1px -1px 0 #000,
+-1px -1px 0 #000;
+}
+.down{
+    margin-left: 44%;
+    font-size: 25px;
+}
+.image_deals{
+    height: 240px;
+    width:200px;
+    
+}
+.crazy_deals_div{
+    display: flex;
+    flex-wrap: wrap;
+    height:600px;
+    border:2px solid rgb(237, 147, 62);
+    margin:10px;
+    justify-content: space-evenly;
+}
+.crazy_image{
+   
+    height: 280px;
+    width: 210px;
+    margin:6px;
+    font-size: 15px;
+    filter: drop-shadow(4px 4px rgb(237, 147, 62));
+
+    border: 1px solid rgb(237, 147, 62);
+    
+    
+}
+#category_heading{
+    height: 400px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 40%;
+    text-transform: uppercase;
+}
