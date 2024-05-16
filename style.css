@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding: 0px;
+
 }
 
 header{
@@ -10,7 +11,10 @@ header{
     justify-content: space-between;
     font-size: 15px;
     align-items: center;
-    
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+.logo_container{
+    margin-left: 7%;
 }
 img{
     
@@ -31,8 +35,13 @@ img{
 .nav_bar a{
     text-decoration: none;
     color: black;
-    font-weight:600px ;
+    font-weight:800px ;
     text-transform: uppercase;
+    padding: 27px 0px 27px 0px;
+    border-bottom: 4px solid aliceblue; ;
+}
+.nav_bar a:hover{
+    border-bottom: 4px solid rgb(194, 61, 105);
 }
 .nav_bar a sup{
     color: red;
